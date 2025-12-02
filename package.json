@@ -1,0 +1,36 @@
+{
+  "name": "rails-view-navigator",
+  "displayName": "Rails View Navigator",
+  "description": "Toggle between Rails controller actions and their corresponding views",
+  "version": "0.1.3",
+  "publisher": "jonchan",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jon-chan-1/rails-view-navigator"
+  },
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [],
+  "main": "./extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "railsViewNavigator.toggleView",
+        "title": "Go to View/Controller"
+      }
+    ],
+    "menus": {
+      "editor/context": [
+        {
+          "command": "railsViewNavigator.toggleView",
+          "group": "navigation",
+          "when": "editorTextFocus"
+        }
+      ]
+    }
+  }
+}
