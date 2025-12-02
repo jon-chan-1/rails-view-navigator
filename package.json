@@ -2,8 +2,9 @@
   "name": "rails-view-navigator",
   "displayName": "Rails View Navigator",
   "description": "Toggle between Rails controller actions and their corresponding views",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "publisher": "jonchan",
+  "icon": "icon.png",
   "repository": {
     "type": "git",
     "url": "https://github.com/jon-chan-1/rails-view-navigator"
